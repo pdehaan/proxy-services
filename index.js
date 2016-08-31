@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 const sortjson = require('sort-json');
 
 const EMBEDLY_PROXY = 'https://embedly-proxy.services.mozilla.com';
-const METADATA_PROXY = 'https://metadata.dev.mozaws.net';
+const METADATA_PROXY = 'https://page-metadata-service.stage.mozaws.net';
 
 const EMBEDLY_URI = `${EMBEDLY_PROXY}/v2/extract`;
 const METADATA_URI = `${METADATA_PROXY}/v1/metadata`;
