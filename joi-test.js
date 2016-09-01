@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 const { getRecommendations, getMetadata, validateMetadata } = require('./index');
 
 getRecommendations()
